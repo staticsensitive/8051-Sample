@@ -1,0 +1,22 @@
+-muwx
+-i obj/adc_demo.ihx
+-M
+-Y
+-I 0x0100
+-X 0x2000
+-C 0x2000
+-b HOME = 0x0000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+obj/adc.c.rel
+obj/delay.c.rel
+obj/main.c.rel
+obj/lcd.c.rel
+
+-e
